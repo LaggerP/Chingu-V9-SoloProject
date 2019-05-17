@@ -1,0 +1,97 @@
+.links{
+    margin: 0 3px 0 0;
+    padding-top: 10px; 
+}
+
+.link{
+    width: 100%;
+    padding: 10px;
+}
+
+
+.Icon{
+    border-radius: 2px;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*Icons Colors*/
+.IconColor{
+    color: #44475a!important;
+}
+.IconColorLock{
+    font-size: 16px;
+    position: absolute;
+    top: 2px;
+    right: 24px;
+}
+
+.ColorLock{
+    padding-left: 5px;
+    color:#f8f8f2!important;
+}
+
+/*Icons BG*/
+.IconBackgroundSe{
+    background-color: #8be9fd!important;
+}
+
+.IconBackgroundGi{
+    background-color: #50fa7b;
+}
+
+.IconBackgroundSTOV{
+    background-color: #ffb86c;
+}
+
+.IconBackgroundTr{
+    background-color: #ff79c6;
+}
+
+.IconBackgroundSc{
+    background-color: #bd93f9;
+}
+
+.IconBackgroundPl{
+    background-color: #f8f8f2;
+}
+
+.IconBackgroundHe{
+    background-color: #e6db74;
+}
+
+/*Text BG*/
+
+.Text{
+    font-size: 13.5px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata',monospace;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.TextBG1{
+    color: #8be9fd;
+}
+
+.TextBG2{
+    color: #50fa7b;
+}
+.TextBG3{
+    color: #ffb86c;
+}
+.TextBG4{
+    color: #ff79c6;
+}
+.TextBG5{
+    color: #bd93f9;
+}
+.TextBG6{
+    color: #f8f8f2;
+}
+.TextBG7{
+    color: #e6db74;
+}

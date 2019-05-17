@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+}
+
+.Main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    align-content: center;
+}
+
+.Main-Navbar-Item {
+    width: 10%;
+    background-color: #44475a;
+}
+
+.Main-Reddit-Item {
+    width: 20%;
+    background-color: #282a36;
+}
+
+.MainMiddleItems {
+    width: 50%;
+    background-color: #282a36;
+}
+.Main-HistoryJS-Item{
+    width: 100%;
+    background-color: #282a36;
+}
+.Main-Clock-Item{
+    width: 100%;
+    background-color: #282a36;
+}
+
+.Main-GitHub-Item {
+    width: 20%;
+    background-color: #282a36;
+}
+
+
