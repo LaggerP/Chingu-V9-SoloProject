@@ -26,7 +26,6 @@ const Main = () => {
             <div className="Main-GitHub-Item">
                 <GitHub />
             </div>
-
         </div>
 
 

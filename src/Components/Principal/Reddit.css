@@ -1,3 +1,7 @@
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+}
 .reddit{
     width: 100%;
     height: 100vh;
@@ -11,11 +15,10 @@
     text-align: center;
 }
 .redditIcon{
-    margin-top: 40px;
+    margin: 50px 0 50px 30px;
     color: #8be9fd;
     font-size: 16px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .IconText{
@@ -27,9 +30,42 @@
 
 .redditNews{
     width: 100%;
+    margin: 25px;
 }
 
 .NewsTitle{
-    border-left: thick solid #ff0000;
-    color: white;
+    margin-bottom: 40px;
+    text-align: left;
+    border-left: 4px solid #44475a;
+    border-left-width: 3px;
+    border-left-style: solid;
+    padding-left: 10px;
+    font-family: 'Inconsolata',monospace;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+.NewsTitle:hover{
+    border-left: 4px solid #18db49;
+}
+
+.Title{
+    color: #f8f8f2;
+    padding-bottom:10px; 
+}
+
+.userPost{
+    color: #f1fa8c;
+    padding-bottom:10px; 
+}
+
+.scoreReddit{
+    color: #6272a4;
+    padding-bottom:10px; 
+}
+
+.linkComment{
+    color: #ff79c6;
+    padding-bottom:10px; 
 }

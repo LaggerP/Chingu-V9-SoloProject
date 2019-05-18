@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    overflow-y: hidden;
 }
 
 .Main {
@@ -26,10 +27,12 @@ body {
 }
 .Main-HistoryJS-Item{
     width: 100%;
+    height: 50vh;
     background-color: #282a36;
 }
 .Main-Clock-Item{
     width: 100%;
+    height: 50vh;
     background-color: #282a36;
 }
 
