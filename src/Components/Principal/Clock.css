@@ -1,3 +1,58 @@
-.clock{
-    width: 100%;
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.clockInfo {
+    margin-top: 100px;
+    display: table;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.clockInfo>h1 {
+    color:#6272a4;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.clockInfo>h1>span {
+    color:#6272a4;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.clockInfo>h4 {
+    color:#6272a4;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.clockMessage{
+    margin: 20px;
+    color:#6272a4;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.clockMessage>span{
+    margin-top:25px;
+}
+
+.circleIcon{
+    font-size: 20px;
+    color: #F3B46A;
+}
+
+.xIcon{
+    font-size: 18px;
+    color: #F3B46A;
+    padding-right:10px; 
+}
+
+.infoCircle{
+    color: #F3B46A;
+    margin-right: 20px;
 }
