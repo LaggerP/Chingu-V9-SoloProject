@@ -1,15 +1,23 @@
-.links{
-    margin: 0 3px 0 0;
-    padding-top: 10px; 
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    display: flex;
+    align-items: center;
+}
+.links {
+    margin: 0 3px 50vh 0;
+    padding-top: 10px;
+    
 }
 
-.link{
+.link {
     width: 100%;
     padding: 10px;
 }
 
-
-.Icon{
+.Icon {
     border-radius: 2px;
     font-size: 14px;
     width: 20px;
@@ -19,79 +27,76 @@
 }
 
 /*Icons Colors*/
-.IconColor{
-    color: #44475a!important;
-}
-.IconColorLock{
+
+.IconColor {color: #44475a}
+
+.IconColorLock {
     font-size: 16px;
     position: absolute;
     top: 2px;
     right: 24px;
 }
 
-.ColorLock{
+.ColorLock {
     padding-left: 5px;
-    color:#f8f8f2!important;
+    color: #f8f8f2;
 }
 
 /*Icons BG*/
-.IconBackgroundSe{
-    background-color: #8be9fd!important;
-}
 
-.IconBackgroundGi{
-    background-color: #50fa7b;
-}
+.IconBackgroundSe {background-color: #8be9fd}
 
-.IconBackgroundSTOV{
-    background-color: #ffb86c;
-}
+.IconBackgroundGi {background-color: #50fa7b}
 
-.IconBackgroundTr{
-    background-color: #ff79c6;
-}
+.IconBackgroundSTOV {background-color: #ffb86c}
 
-.IconBackgroundSc{
-    background-color: #bd93f9;
-}
+.IconBackgroundTr {background-color: #ff79c6}
 
-.IconBackgroundPl{
-    background-color: #f8f8f2;
-}
+.IconBackgroundSc {background-color: #bd93f9}
 
-.IconBackgroundHe{
-    background-color: #e6db74;
-}
+.IconBackgroundPl {background-color: #f8f8f2}
+
+.IconBackgroundHe {background-color: #e6db74}
 
 /*Text BG*/
 
-.Text{
+.Text {
     font-size: 13.5px;
     text-transform: uppercase;
-    font-family: 'Inconsolata',monospace;
+    font-family: 'Inconsolata', monospace;
     margin-left: 6px;
     font-weight: bold;
 }
 
-.TextBG1{
-    color: #8be9fd;
+.TextBG1 {color: #8be9fd}
+.TextBG2 {color: #50fa7b}
+.TextBG3 {color: #ffb86c}
+.TextBG4 {color: #ff79c6}
+.TextBG5 {color: #bd93f9}
+.TextBG6 {color: #f8f8f2}
+.TextBG7 {color: #e6db74}
+
+/*Social icons*/
+
+.logoClass {
+    padding: 30px 0 0 10px;
+    width: 100px;
 }
 
-.TextBG2{
-    color: #50fa7b;
+.socialUl {
+    list-style-type: none;
+    padding: 0;
+    
 }
-.TextBG3{
-    color: #ffb86c;
+
+.socialLi {
+    margin-left: 4px;
+    padding: 7px;
+    border-radius: 50%;
+    color:white;
 }
-.TextBG4{
-    color: #ff79c6;
-}
-.TextBG5{
-    color: #bd93f9;
-}
-.TextBG6{
-    color: #f8f8f2;
-}
-.TextBG7{
-    color: #e6db74;
-}
+
+.facebookBG{background-color: #3b5998}
+.linkedinBG{background-color:#0072b1}
+.twitterBG{background-color: #00acee}
+.redditBG{background-color: #0575a1}

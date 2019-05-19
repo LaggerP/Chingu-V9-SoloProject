@@ -1,3 +1,9 @@
+## INFORMATION ABOUT THE PROJECT
+
+[Project Board](https://github.com/LaggerP/Chingu-V9-SoloProject-T1/projects/2)
+
+
+##
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
