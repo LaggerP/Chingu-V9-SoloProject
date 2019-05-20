@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import './Reddit.css'
-import RedditJSON from '../../Data/dataReddit.json'
 
 class Reddit extends Component {
+
+   constructor(props) {
+      super(props);
+      this.state = {
+         post: []
+      }
+   }
+   componentDidMount() {
+      fetch(`https://www.reddit.com/r/JavaScript.json?sort=popular`)
+         .then(result => result.json())
+         .then(res => this.setState({ post: res.data.children }))
+   }
+
    render() {
       return (
          <div className="reddit">
@@ -12,16 +24,16 @@ class Reddit extends Component {
                   <span class="IconText"> POPULAR ON R/JAVASCRIPT</span>
                </div>
                <div className="redditNews">
-                  {RedditJSON.map((post, index) => {
+                  {this.state.post.map((post, index) => {
                      return (
                         <li className="NewsTitle">
-                           <a href="">
-                              <h5 className="Title">{post.title}</h5>
-                              <span className="userPost">Posted by: {post.userPost}</span>
+                           <a href="" key={index}>
+                              <h5 className="Title">{post.data.title}</h5>
+                              <span className="userPost">Posted by: {post.data.author_fullname}</span>
                               <br />
-                              <span className="scoreReddit">Reddit Score: {post.scoreReddit}</span>
+                              <span className="scoreReddit">Reddit Score: {post.data.score}</span>
                               <br />
-                              <a href={post.linkComment} className="linkComment">Link to Comments</a>
+                              <a href={post.data.url} className="linkComment">Link to Comments</a>
                            </a>
                         </li>
                      )
