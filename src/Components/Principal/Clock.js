@@ -61,7 +61,7 @@ class Clock extends Component {
                             <div className="clockMessage">
                                 <span><i className="fa fa-question-circle circleIcon" aria-hidden="true"></i> Did you know you can add CUSTOM LINKS to display in this section?</span><br />
                                 <span>Open the SETTINGS panel and add the URLs of your favorites sites to the 'CUSTOM LINKS' textarea.</span><br />
-                                <span className="infoCircle" onClick={() => this.hiddeMessage()}><i className="fa fa-times-circle xIcon" aria-hidden="true"></i>Got it! Don't show me this again.</span>
+                                <span className="infoCircle spanButton" onClick={() => this.hiddeMessage()}><i className="fa fa-times-circle xIcon" aria-hidden="true"></i>Got it! Don't show me this again.</span>
                             </div>
                             :null
                     }

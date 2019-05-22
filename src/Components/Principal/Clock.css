@@ -56,3 +56,7 @@
     color: #F3B46A;
     margin-right: 20px;
 }
+
+.spanButton{
+    cursor: pointer;
+}

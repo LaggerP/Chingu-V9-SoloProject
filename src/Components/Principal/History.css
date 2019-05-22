@@ -1,7 +1,5 @@
-
-
 .history {
-    width: 100%;
+    width: 100%
 }
 
 .historyIcon {
@@ -18,42 +16,42 @@
     text-align: center;
 }
 
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .item {
-    margin-left: 30px;
-}
-
-.imgHistory {
-    width: 18px;
-}
-
-.NewHistory {
-    margin-bottom: 40px;
+    width: 95%;
     text-align: left;
     padding-left: 10px;
     font-family: 'Inconsolata', monospace;
     font-size: 14px;
     font-weight: 100;
     line-height: 18px;
+    margin: 10px auto;
 }
 
-
-.linkHistory{
-    color: white;
+.imgHistory {
+    width: 10%;
+    padding-right: 15px;
 }
 
-.linkHistory:hover{
-    color:#f1fa8c;
+.linkHistory {
+    color: white
 }
-.imgHistory{
-    padding-right: 10px;
+
+.linkHistory:hover {
+    color: #f1fa8c
 }
-.liHistory{
-    margin-top:15px;
+
+.imgHistory>img {
+    width: 18px;
+    height: 18px;
 }
-.TimeAgo{
-    padding-left: 20px;
-    color: #999;
-}
-.TimeAgo:hover{
+
+.TimeAgo {
+    float:right;
     color: #999;
 }

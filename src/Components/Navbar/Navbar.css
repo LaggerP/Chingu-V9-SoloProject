@@ -1,15 +1,6 @@
-.Navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    display: flex;
-    align-items: center;
-}
 .links {
     margin: 0 3px 50vh 0;
     padding-top: 10px;
-    
 }
 
 .link {
@@ -45,17 +36,11 @@
 /*Icons BG*/
 
 .IconBackgroundSe {background-color: #8be9fd}
-
 .IconBackgroundGi {background-color: #50fa7b}
-
 .IconBackgroundSTOV {background-color: #ffb86c}
-
 .IconBackgroundTr {background-color: #ff79c6}
-
 .IconBackgroundSc {background-color: #bd93f9}
-
 .IconBackgroundPl {background-color: #f8f8f2}
-
 .IconBackgroundHe {background-color: #e6db74}
 
 /*Text BG*/
@@ -77,6 +62,11 @@
 .TextBG7 {color: #e6db74}
 
 /*Social icons*/
+
+.NavbarInitabIcon{
+    min-width: 100%;
+    padding:10%;
+}
 
 .logoClass {
     padding: 30px 0 0 10px;

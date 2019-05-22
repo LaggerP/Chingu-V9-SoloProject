@@ -12,25 +12,24 @@ const History = () => {
                     <span aria-hidden="true" className="fa fa-clock-o"></span>
                     <span class="IconText"> RELEVANT JAVASCRIPT HISTORY</span>
                 </div>
-                <div className="item">
-                    <div className="NewHistory">
-
-                        {JavaScriptJSON.map((historyPost, index) => {
-                            return (
+                <div className="items">
+                    {JavaScriptJSON.map((historyPost) => {
+                        return (
+                            <div className="item">
                                 <a href="" className="linkHistory">
-                                    <li className="liHistory">
-                                        <img src={historyPost.imgLink} className="imgHistory" />
+                                    <div>
+                                        <span className="imgHistory" ><img src={historyPost.imgLink}/></span>
                                         <span className="TitleHistory">{historyPost.title}</span>
                                         <span className="TimeAgo">{historyPost.timeAgo}</span>
-                                    </li>
+                                    </div>
                                 </a>
-                            )
-                        })
-                        }
-                    </div>
+                            </div>
+                        )
+                    })
+                    }
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 };
