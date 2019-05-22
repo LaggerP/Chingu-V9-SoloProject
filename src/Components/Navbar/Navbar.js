@@ -54,7 +54,7 @@ const Navbar = () => {
                 <a href="https://initab.com"><img src={initabLogo} className="logoClass" alt="" /></a>
                 <ul className="socialUl">
                     <a href=""><li className="fa fa-facebook socialLi facebookBG"></li></a>
-                    <a href=""><li className="fa fa-linkedin socialLi linkedinBG"></li></a>
+                    <a href="https://github.com/LaggerP"><li className="fa fa-github socialLi githubBG"></li></a>
                     <a href=""><li className="fa fa-twitter socialLi twitterBG"></li></a>
                     <a href=""><li className="fa fa-reddit-alien socialLi redditBG"></li></a>
                 </ul>

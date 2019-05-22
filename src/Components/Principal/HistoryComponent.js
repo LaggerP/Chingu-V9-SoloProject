@@ -3,8 +3,6 @@ import './History.css'
 import JavaScriptJSON from '../../Data/dataJS-history.json'
 
 const History = () => {
-
-
     return (
         <div className="history">
             <div className="history_items">
@@ -30,7 +28,6 @@ const History = () => {
                 </div>
             </div>
         </div >
-
     );
 };
 

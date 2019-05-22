@@ -8,12 +8,12 @@ class GitHub extends Component {
       this.state = {
          GitPost: [],
          GitPR: [],
-         issues: true,
+         issues: false,
          pullsRequest: true,
          title: "GITHUB ISSUES"
       }
-   }
 
+   }
    hiddeIssues() {
       this.setState({
          issues: false,
