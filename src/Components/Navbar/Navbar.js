@@ -59,9 +59,7 @@ const Navbar = () => {
                     <a href=""><li className="fa fa-reddit-alien socialLi redditBG"></li></a>
                 </ul>
             </div>
-
         </div>
-
     );
 };
 

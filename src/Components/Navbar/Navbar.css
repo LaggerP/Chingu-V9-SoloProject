@@ -1,7 +1,8 @@
 .links {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    align-items: flex-start;
+    height: 85vh;
     padding-top: 10px;
 }
 
@@ -66,11 +67,8 @@
 /*Social icons*/
 
 .NavbarInitabIcon{
-    position: fixed;
-    bottom: 0;
+    margin: auto 0 0 10px;
     width: 100%;
-    height: auto;
-    margin: 0 0 10px 10px;
 }
 
 .logoClass {
@@ -81,7 +79,6 @@
 .socialUl {
     list-style-type: none;
     padding: 0;
-    
 }
 
 .socialLi {
