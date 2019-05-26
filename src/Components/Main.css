@@ -3,34 +3,39 @@ body {
     overflow-y: hidden;
 }
 
-.Main {
-    display: flex;
-    width: 100%;
+.Main-Navbar {
+    position: absolute;
     height: 100vh;
-    align-content: center;
-}
-
-.Main-Navbar-Item {
-    width: 10%;
     background-color: #44475a;
 }
 
+.Main-items {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    align-content: center;
+}
+
 .Main-Reddit-Item {
-    width: 20%;
+    padding-left: 145px;
+    width: 23vw;
     background-color: #282a36;
 }
 
-.MainMiddleItems {
-    width: 50%;
+.Main-Middle-Items {
+    width: 60%;
     background-color: #282a36;
 }
-.Main-HistoryJS-Item{
+
+.Main-HistoryJS-Item {
     width: 100%;
     height: 50vh;
     background-color: #282a36;
     overflow-y: auto;
 }
-.Main-Clock-Item{
+
+.Main-Clock-Item {
     width: 100%;
     height: 50vh;
     background-color: #282a36;
@@ -38,6 +43,6 @@ body {
 }
 
 .Main-GitHub-Item {
-    width: 20%;
+    width: 20vw;
     background-color: #282a36;
 }

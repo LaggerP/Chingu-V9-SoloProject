@@ -19,7 +19,6 @@
     text-align: center;
 }
 
-
 .spanButton{
     cursor: pointer;
     padding: 15px;
@@ -34,6 +33,7 @@
     width: 100%;
     margin: 25px;
 }
+
 .NewsTitle {
     margin-bottom: 40px;
     text-align: left;

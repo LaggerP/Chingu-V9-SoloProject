@@ -9,23 +9,30 @@ import './Main.css';
 const Main = () => {
     return (
         <div className="Main">
-            <div className="Main-Navbar-Item">
-                <Navbar />
-            </div>
-            <div className="Main-Reddit-Item">
-                <Reddit />
-            </div>
-            <div className="MainMiddleItems">
-                <div className="Main-HistoryJS-Item">
-                    <History />
-                </div>
-                <div className="Main-Clock-Item">
-                    <Clock />
+
+            <div className="Main-Navbar">
+                <div className="Main-Navbar-Item">
+                    <Navbar />
                 </div>
             </div>
-            <div className="Main-GitHub-Item">
-                <GitHub />
+
+            <div className="Main-items">
+                <div className="Main-Reddit-Item">
+                    <Reddit />
+                </div>
+                <div className="Main-Middle-Items">
+                    <div className="Main-HistoryJS-Item">
+                        <History />
+                    </div>
+                    <div className="Main-Clock-Item">
+                        <Clock />
+                    </div>
+                </div>
+                <div className="Main-GitHub-Item">
+                    <GitHub />
+                </div>
             </div>
+
         </div>
 
 
